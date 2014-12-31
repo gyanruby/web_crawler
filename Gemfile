@@ -43,6 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'redis'
+#gem 'redis'
 gem 'spreadsheet'
 gem 'mechanize'
+gem 'resque', :require => "resque/server"
